@@ -2,6 +2,14 @@ import { Avatar } from "@mui/material";
 import React from "react";
 import "./Sidebar.css";
 function Sidebar() {
+
+    const recentItem = (topic) => (
+        <div className="sidebar__recentItem">
+            <span className="sidebar__hash">#</span>
+            <p>{topic}</p>
+        </div>
+    );
+
   return (
     <div className="sidebar">
       <div className="sidebar__top">
@@ -25,6 +33,12 @@ function Sidebar() {
       </div>
       <div className="sidebar__bottom">
         <p>Recent</p>
+        {recentItem('reactjs')}
+        {recentItem('java')}
+        {recentItem('python')}
+        {recentItem('devops')}
+        {recentItem('developer')}
+
       </div>
     </div>
   );
