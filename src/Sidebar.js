@@ -3,6 +3,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import {selectUser } from "./features/userSlice"
 import "./Sidebar.css";
+
 function Sidebar() {
     const user = useSelector(selectUser)
     const recentItem = (topic) => (

@@ -24,8 +24,7 @@ function Login() {
                 profileUrl: userAuth.user.photoURL,
             })
         );
-    })
-    .catch((error) => alert(error));
+    }).catch((error) => alert(error));
   };
   const register = () => {
     if(!name) {

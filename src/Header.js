@@ -7,7 +7,7 @@ import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import HeaderOption from './HeaderOption';
-import { logout, selectUser } from "./features/userSlice";
+import { logout } from "./features/userSlice";
 import { auth } from "./firebase"
 import { useDispatch } from 'react-redux';
 
