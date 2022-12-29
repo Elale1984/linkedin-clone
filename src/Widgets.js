@@ -24,7 +24,9 @@ function Widgets() {
       {newArticle("Dev Jobs Are on the Rise", "Top News - less than 1% unemployment.")}
       {newArticle("Study as A Lifestyle", "Its not a task, it is definition.")}
       {newArticle("Now Hiring Developers", "Big Tech is on the rise!")}
-
+      {newArticle("Teach to Learn", "How to master any subject.")}
+      {newArticle("Remote Work", "Welcome to your new office.")}
+      {newArticle("Eat, Sleep, Code", "Do what you love.")}
     </div>
   );
 }
