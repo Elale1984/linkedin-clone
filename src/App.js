@@ -31,12 +31,14 @@ function App() {
         dispatch(logout());
       }
     });
-  }, []);
+  }, [dispatch]);
   return (
     <div className="app">
 
-      {/* Header */}
-      <Header />
+      <div className="app_header">
+        <Header />
+      </div>
+      
 
       {!user ? ( 
         <Login /> 
