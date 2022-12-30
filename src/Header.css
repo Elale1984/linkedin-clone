@@ -1,4 +1,4 @@
-.header{
+.header {
     position: sticky;
     top: 0;
     display: flex;
@@ -15,7 +15,7 @@
     display: flex;
 }
 
-.header__left > img{
+.header__left > img {
     object-fit: contain;
     height: 40px;
     margin-right: 10px;
@@ -32,7 +32,7 @@
     background-color: #eef3f8;
 }
 
-.header__search > input {
+.header__search>input {
     outline: none;
     border: none;
     background: none;
@@ -42,3 +42,43 @@
     display: flex;
 }
 
+@media(max-width: 800px) {
+    .header__right {
+        position: fixed;
+        bottom: 0 !important;
+        left: 0 !important;
+        top: initial;
+        background-color: white;
+        justify-content: center;
+        width: 100%;
+        justify-content: space-evenly;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        
+    }
+    
+    .header__left {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        top: 0 !important;
+        left: 0 !important;
+        background-color: white;
+        justify-content: center;
+        width: 100%;
+        justify-content: space-evenly;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    .header__avatar {
+        position: fixed;
+        top: 0 !important;
+        left: 0 !important;
+        
+    }
+
+    .header__left>img{
+        display: none;
+    }
+    
+}

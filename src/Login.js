@@ -11,7 +11,6 @@ function Login() {
   const [profilePic, setProfilePic] = useState("");
   const dispatch = useDispatch();
 
-  
   const loginToApp = (e) => {
     e.preventDefault();
     auth
