@@ -102,3 +102,11 @@
     margin-right: 10px;
     margin-left: 5px;
 }
+
+
+@media (max-width: 800px) {
+    .sidebar {
+        display: none;
+    }
+    
+}

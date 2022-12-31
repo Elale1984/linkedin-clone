@@ -28,6 +28,8 @@ function Login() {
       .catch((error) => alert(error));
   };
   const register = () => {
+    
+
     if (!name) {
       return alert("Please enter a full name!");
     }

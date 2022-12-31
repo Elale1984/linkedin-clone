@@ -25,6 +25,7 @@ body {
     .app {
 
         flex-direction: row;
+        width: fit-content;
     }
 
     .app__body {

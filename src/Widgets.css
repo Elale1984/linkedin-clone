@@ -51,3 +51,10 @@
     font-size: 12px;
     color: gray;
 }
+
+
+@media (max-width: 800px) {
+    .widgets {
+        display: none;;
+    }
+}
