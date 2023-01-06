@@ -103,10 +103,27 @@
     margin-left: 5px;
 }
 
+@media (max-width: 950px) {
+    .sidebar__top > h4 {
+        color: gray;
+        font-size: 9px;
+    }
 
-@media (max-width: 800px) {
+    .sidebar__stat > p {
+        color: gray;
+        font-size: 11px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 770px) {
+    .sidebar {
+        flex: 0.3;
+    }
+    
+}
+@media (max-width: 700px) {
     .sidebar {
         display: none;
     }
-    
 }

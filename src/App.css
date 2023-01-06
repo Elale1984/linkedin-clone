@@ -15,24 +15,4 @@ body {
     margin-right: 20px;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) { 
-    
- } */
 
-/* // Medium devices (tablets, 768px and up) */
-@media (max-width: 800px) {
-    .app {
-
-        flex-direction: row;
-        width: fit-content;
-    }
-
-    .app__body {
-
-        display: flex;
-        flex-direction: column;
-    }
-
-
-}
