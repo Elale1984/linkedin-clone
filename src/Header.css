@@ -42,7 +42,7 @@
     display: flex;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 2em) {
     .header {
         width: min-content;
     }
@@ -54,11 +54,13 @@
         top: initial;
         background-color: white;
         justify-content: center;
-        width: 100%;
+        min-width: 100%;
         justify-content: space-around;
         padding-bottom: 5px;
         padding-top: 5px;
-        margin-left: 10px;
+     
+        margin-top: 10px;
+        border-top: 0.1px solid lightgray;
         
     }
     
@@ -72,5 +74,6 @@
         justify-content: center;
         padding-bottom: 5px;
         padding-top: 5px;
+
     }
 }
